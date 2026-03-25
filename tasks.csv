@@ -1,0 +1,6 @@
+id,program,name,owner,depends_on,min_days,ml_days,max_days
+T1,Digit Scale,Bracket procurement,Supply,,3,7,14
+T2,Digit Scale,EVT build,Hardware,T1,5,10,18
+T3,Digit Scale,EVT test pass,Hardware,T2,3,7,14
+T4,Digit Scale,Software release,Software,,4,8,16
+T5,Digit Scale,Integrated demo,Program,"T3,T4",2,5,10
